@@ -5,13 +5,13 @@ import 'firebase/compat/firestore';
 import 'firebase/compat/storage';
 
 const firebaseConfig = {
-  apiKey: process.env.REACT_APP_API_KEY,
-  authDomain: process.env.REACT_APP_AUTH_DOMAIN,
-  projectId: process.env.REACT_APP_PROJECT_ID,
-  storageBucket: process.env.REACT_APP_STORAGE_BUCKET,
-  messagingSenderId: process.env.REACT_APP_MESSAGING_SENDER_ID,
-  appId: process.env.REACT_APP_ID,
-  measurementId: process.env.REACT_APP_MEASUREMENT_ID
+  apiKey: "AIzaSyAA982-6Nz8aJnIgyAcewquWoGOR8_iGio",
+  authDomain: "fir-recipes-3899d.firebaseapp.com",
+  projectId: "fir-recipes-3899d",
+  storageBucket: "fir-recipes-3899d.appspot.com",
+  messagingSenderId: "472869292232",
+  appId: "1:472869292232:web:cfc6996f236d42d00efdfd",
+  measurementId: "G-E61KJPEZPP"
 };
 
 if(!firebase.apps.lenght){
